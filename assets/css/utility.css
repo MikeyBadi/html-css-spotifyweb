@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.cont-20pdd{
+  padding: 20px;
+}
+
+.flex{
+  display: flex;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+h3, p, span{
+  font-size: 12px;
+  color: #757575;
+}

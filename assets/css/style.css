@@ -1,6 +1,74 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+
+
+
+
+/* HEADER */
+nav{
+  width: 230px;
+  height: calc(100vh - 90px);
+  position: relative;
+  background-color: black;
+  overflow-y: hidden;
+}
+.logo{
+  width: 230px;
+  height: 80px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
 }
 
+/* Logo */
+.logo img{
+  width: 70%;
+  margin-left: 20px;
+  align-self: center;
+}
+
+/* Navigation */
+.navigation{
+  width: 230px;
+  height: 100px;
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 999;
+  top: 80px;
+  left: 0;
+  list-style: none;
+}
+
+.navigation ul li img{
+  width: 10%;
+  color: #D2D2D2;
+}
+.navigation ul li span{
+  color: #757575;
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+
+/* Playlist */
+
+.playlist{
+  width: 230px;
+  position: absolute;
+  top: 179px;
+  left: 0;
+}
+
+.playlist h3{
+  padding: 10px 0;
+  color: white;
+}
+
+.add i{
+  background-color: #A3A3A3;
+  padding: 5px;
+}
+
+.playlist-name span{
+  display: block;
+  padding: 10px 0;
+}

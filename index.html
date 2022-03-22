@@ -9,8 +9,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link rel="stylesheet" href="assets/css/debug.css">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/utility.css">
 
   <title>Spotify</title>
 </head>
@@ -18,16 +21,66 @@
   <div class="container">
     
     <header>
-      <nav class="color">
-        <div class="logo color">asdsada</div>
-        <div class="navigation color">asdasdasdad</div>
-        <div class="playlist color"></div>
-        <div class="user color">saddsasd</div>
+      <nav>
+
+        <!-- Logo -->
+        <div class="logo flex">
+          <img src="/assets/img/logo.svg" alt="Spotify logo">
+        </div>
+        <!-- /Logo -->
+
+        <!-- Navigation -->
+        <div class="navigation cont-20pdd">
+          <ul>
+            
+            <li>
+              <img src="assets/img/home.svg" alt="Home">
+              <span>Home</span>
+            </li>
+            <li>
+              <img src="assets/img/search.svg" alt="search">
+              <span>Cerca</span>
+            </li>
+            <li>
+              <img src="assets/img/libreria.svg" alt="library">
+              <span>La tua libreria</span>
+            </li>
+          </ul>
+        </div>
+        <!-- /Navigation -->
+
+        <!-- Playlist -->
+        <div class="playlist cont-20pdd">
+          <h3>PLAYLIST</h3>
+          <div>
+            <div class="add">
+              <i class="fa-solid fa-plus"></i>
+              <span>Crea una nuova playlist</span>
+            </div>
+            <div class="playlist-name">
+              <span>Nome Playlist</span>
+              <span>Nome Playlist</span>
+              <span>Nome Playlist</span>
+              <span>Nome Playlist</span>
+              <span>Nome Playlist</span>
+              <span>Nome Playlist</span>
+              <span>Nome Playlist</span>
+            </div>
+          </div>
+        </div>
+        <!-- /Playlist -->
+
+        <!-- User -->
+        <div class="user cont-20pdd color">saddsasd</div>
+        <!-- User -->
+
       </nav>
       
     </header>
     <main>
-      <div class="upgrade color"></div>
+      <div class="upgrade color">
+        
+      </div>
       <div class="spoty-main">
         <div class="sections">
           <ul>
