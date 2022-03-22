@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="assets/css/debug.css">
-  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/utility.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
 
   <title>Spotify</title>
 </head>
@@ -21,6 +23,7 @@
   <div class="container">
     
     <header>
+      <!-- side navbar -->
       <nav>
 
         <!-- Logo -->
@@ -82,61 +85,115 @@
           </div>
         </div>
         <!-- User -->
-
       </nav>
-      
+      <!-- /side navbar -->
+
     </header>
     <main>
-      <div class="upgrade color">
-        
+      <!-- Upgrade button -->
+      <div class="upgrade">
+        <button>EFFETUA L'UPGRADE</button>
       </div>
+      <!-- /Upgrade button -->
+
       <div class="spoty-main">
+        <!-- Menu -->
         <div class="sections">
           <ul>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+            <li><a href="#">IN EVIDENZA</a></li>
+            <li><a href="#">PODCAST</a></li>
+            <li><a href="#">CLASSIFICHE</a></li>
+            <li><a href="#">GENERI E MOOD</a></li>
+            <li><a href="#">NUOVE USCITE</a></li>
+            <li><a href="#">SCOPRI</a></li>
           </ul>
         </div>
+        <!-- /Menu -->
         
-        <div class="recent color">
-          <h1>Recently played</h1>
-          <div class="content">
-            <div class="cover color"></div>
-            <div class="cover color"></div>
-            <div class="cover color"></div>
-            <div class="cover color"></div>
-            <div class="cover color"></div>
-            <div class="cover color"></div>
+        <!-- Cards -->
+        <div class="cards">
+          <div class="recent">
+            <h1>Recently played</h1>
+            <div class="content">
+              <div class="cover">
+                <img src="assets/img/metal_lifting.jpg" alt="metal">
+                <h2>Heavy Metal</h2>
+                <p>Subtitle</p>
+              </div>
+              <div class="cover">
+                <img src="assets/img/metal_lifting.jpg" alt="metal">
+                <h2>Heavy Metal</h2>
+                <p>Subtitle</p>
+              </div>
+              <div class="cover">
+                <img src="assets/img/metal_lifting.jpg" alt="metal">
+                <h2>Heavy Metal</h2>
+                <p>Subtitle</p>
+              </div>
+              <div class="cover">
+                <img src="assets/img/metal_lifting.jpg" alt="metal">
+                <h2>Heavy Metal</h2>
+                <p>Subtitle</p>
+              </div>
+              <div class="cover">
+                <img src="assets/img/metal_lifting.jpg" alt="metal">
+                <h2>Heavy Metal</h2>
+                <p>Subtitle</p>
+              </div>
+              <div class="cover last">
+                <img src="assets/img/metal_lifting.jpg" alt="metal">
+                <h2>Heavy Metal</h2>
+                <p>Subtitle</p>
+              </div>
+  
+            </div>
+          </div>
+  
+          <div class="for-you ">
+            <h1>Creato per John Doe</h1>
+            <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+            <div class="content">
+              <div class="cover ">
+                <img src="assets/img/metal_lifting.jpg" alt="metal">
+                <h2>Heavy Metal</h2>
+                <p>Subtitle</p>
+              </div>
+              <div class="cover ">
+                <img src="assets/img/metal_lifting.jpg" alt="metal">
+                <h2>Heavy Metal</h2>
+                <p>Subtitle</p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="artists ">
+            <h1>Artisti più popolari</h1>
+            <p>Più ascolti, più accurati saranno i suggerimenti.</p>
+            <div class="content">
+              <div class="cover round">
+                <img src="assets/img/metal_lifting.jpg" alt="metal">
+                <h2>Heavy Metal</h2>
+                <p>Subtitle</p>
+              </div>            
+              <div class="cover round">
+                <img src="assets/img/metal_lifting.jpg" alt="metal">
+                <h2>Heavy Metal</h2>
+                <p>Subtitle</p>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="for-you color">
-          <div class="content">
-            <div class="cover color"></div>
-            <div class="cover color"></div>
-
-          </div>
-        </div>
-        <div class="artists color">
-          <div class="content">
-            <div class="cover color"></div>
-            <div class="cover color"></div>
-          </div>
-        </div>
+        <!-- /Cards -->
 
       </div>
     </main>
   </div>
-
-  <footer>
+  <section class="meta-player">
     <div class="player color">
       <div class="song color"></div>
       <div class="cmmds color"></div>
       <div class="volume color"></div>
     </div>
-  </footer>
+  </section>
 </body>
 </html>

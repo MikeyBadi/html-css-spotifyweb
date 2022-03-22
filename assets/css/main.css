@@ -1,0 +1,96 @@
+/*
+  MAIN
+*/
+main{
+  background-color: #141923;
+  width: calc(100vw - 230px);
+  height: calc(100vh - 90px);
+  overflow-y: auto;
+}
+
+/* Upgrade */
+.upgrade{
+  background-color: rgba(0, 0, 0, 0.282);
+  width: calc(100vw - 230px);
+  height: 90px;
+  position: fixed;
+  z-index: 999;
+}
+.upgrade button{
+  text-align: right;
+  vertical-align: middle;
+  padding:10px 30px;
+  color: white;
+  background: none;
+  border: 1px solid white;
+  border-radius: 30px;
+  float: right;
+  margin: 27px 20px;
+}
+
+/* Menu */
+.sections{
+  margin-top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sections ul li{
+  margin: 20px;
+  display: inline-block;
+}
+.sections ul li a{
+  color: #757575;
+}
+
+/* Cards */
+.recent, 
+.for-you, 
+.artists{
+  width: 100%;
+}
+
+.cards h1{
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  margin: 0 1%;
+}
+.cards p{
+  padding: 10px 0;
+  margin: 0 1%;
+}
+
+.cover img{
+  width: 100%;
+}
+
+.round img{
+  border-radius: 50%;
+}
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cover{
+  width: calc((100% / 6) - 2%);
+  min-width: 90px;
+  margin: 30px 1% 30px;
+}
+
+.last{
+  margin: 30px 0;
+}
+
+.cover h2,
+.cover p{
+  text-align: center;
+}
+
+.cards h2{
+  font-size: 16px;
+  color: white;
+}
