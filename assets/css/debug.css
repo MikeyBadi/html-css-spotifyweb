@@ -3,3 +3,84 @@
   padding: 0;
   box-sizing: border-box;
 }
+.color{
+  background-color: rgba(0, 100, 0, 0.289);
+  border: 1px solid black;
+}
+header{
+  display: flex;
+}
+.upgrade{
+  width: calc(100vw - 230px);
+  height: 90px;
+  position: fixed;
+  top: 0;
+  left: 230px;
+  z-index: 999;
+}
+
+nav{
+  width: 230px;
+  height: calc(100vh - 90px);
+  position: relative;
+}
+
+.logo{
+  width: 230px;
+  height: 80px;
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+}
+
+.navigation{
+  width: 230px;
+  height: 90px;
+  margin-bottom: 10px;
+  position: fixed;
+  z-index: 999;
+  top: 80px;
+  left: 0;
+}
+
+.playlist{
+  width: 230px;
+  height: 300px;
+  position: absolute;
+  top: 169px;
+  left: 0;
+}
+
+.user{
+  width: 228px;
+  height: 90px;
+  position: absolute;
+  top: calc(100vh - 180px);
+  left: 0;
+  z-index: 1;
+}
+
+
+footer{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.player{
+  width: 100vw;
+  height: 90px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+
+.song,
+.volume{
+  width: 220px;
+}
+
+.cmmds{
+  width: 500px;
+}
