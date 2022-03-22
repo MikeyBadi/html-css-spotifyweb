@@ -7,9 +7,18 @@ nav{
   width: 230px;
   height: calc(100vh - 90px);
   position: relative;
-  background-color: black;
   overflow-y: hidden;
 }
+
+.logo,
+.navigation,
+.playlist,
+.user,
+nav{
+  background-color: black;
+}
+/* Logo */
+
 .logo{
   width: 230px;
   height: 80px;
@@ -19,7 +28,6 @@ nav{
   left: 0;
 }
 
-/* Logo */
 .logo img{
   width: 70%;
   margin-left: 20px;
@@ -40,7 +48,7 @@ nav{
 
 .navigation ul li img{
   width: 10%;
-  color: #D2D2D2;
+  filter: invert(0.4);
 }
 .navigation ul li span{
   color: #757575;
@@ -71,4 +79,45 @@ nav{
 .playlist-name span{
   display: block;
   padding: 10px 0;
+}
+
+/* User */
+.user{
+  width: 230px;
+  position: absolute;
+  top: calc(100vh - 150px);
+  left: 0;
+  z-index: 1;
+  padding: 0 20px;
+  background-color: black;
+}
+
+.download{
+  border-bottom: 1px solid grey;
+}
+
+.download img{
+  width: 8%;
+  filter: invert(0.4);
+}
+
+.download span{
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 7px;
+}
+
+.personal-account img{
+  width: 12%;
+  background-color: #757575;
+  border-radius: 50%;
+  margin-top: 9px;
+}
+
+.personal-account span{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  color: white;
+  padding-bottom: 15px;
 }
