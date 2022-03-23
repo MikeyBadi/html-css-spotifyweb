@@ -1,0 +1,92 @@
+@media screen and (max-width: 830px){
+
+  .cover{
+    width: 23%;
+  }
+}
+@media screen and (max-width: 625px){
+
+  .cover{
+    width: 47%;
+  }
+}
+@media screen and (max-width: 450px){
+
+  .cover{
+    width: 47%;
+  }
+
+  /* sizes */
+
+  nav,
+  .logo,
+  .navigation,
+  .user{
+    width: 50px;
+    overflow: hidden;
+  }
+
+  nav span{
+    visibility: hidden;
+  }
+  main, 
+  .upgrade{
+    width: 400px;
+  }
+
+  /* logo */
+  .logo{
+    background: url("../img/favicon.ico") no-repeat;
+    filter: invert(1);
+    background-position: center;
+  }  
+  .logo img{
+    visibility: hidden;
+  }
+
+  /* Navigation */
+  .navigation{
+    padding-left: 19px;
+    top: 65px;
+    left: -3px;
+  }
+
+  .navigation img{
+    cursor: pointer;
+  }
+
+  /* playlist */
+  .playlist{
+    visibility: hidden;
+  }
+  /* user */
+
+  .user{
+    padding: 0;
+    width: 50px;
+    height: 55px;
+  }
+  .download{
+    height: 15px;
+    border: none;
+    width: 50px;
+  }
+  .download img{
+    width: 15px;
+    margin-left: 17px;
+    cursor: pointer;
+  }
+  .download span{
+    height: 0;
+  }
+
+  .personal-account{
+    width: 50px;
+    height: 30px;
+  }
+  .personal-account img{
+    width: 30px;
+    margin-left: 11px;
+  }
+
+}

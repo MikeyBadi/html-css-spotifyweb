@@ -43,7 +43,7 @@ nav{
 }
 
 .navigation ul li img{
-  width: 10%;
+  width: 20px;
   filter: invert(0.4);
 }
 .navigation ul li span{
