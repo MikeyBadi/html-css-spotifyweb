@@ -37,12 +37,18 @@ main{
   align-items: center;
 }
 
+.sections ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60%;
+}
 .sections ul li{
-  margin: 20px;
   display: inline-block;
 }
 .sections ul li a{
   color: #757575;
+  font-size: 12px;
 }
 
 /* Cards */
