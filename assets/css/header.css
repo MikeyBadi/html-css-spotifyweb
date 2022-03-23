@@ -34,7 +34,6 @@ nav{
 /* Navigation */
 .navigation{
   width: 230px;
-  height: 100px;
   margin-bottom: 10px;
   position: fixed;
   z-index: 999;
@@ -71,6 +70,7 @@ nav{
 .add i{
   background-color: #A3A3A3;
   padding: 5px;
+  display: inline-block;
 }
 
 .playlist-name span{
@@ -118,4 +118,32 @@ nav{
   font-size: 14px;
   color: white;
   padding-bottom: 13px;
+}
+
+/* hovers */
+nav span{
+  cursor: pointer;
+}
+
+.personal-account span{
+  cursor: auto;
+}
+
+.navigation span:hover{
+  color: white;
+}
+
+.playlist span:hover{
+ color: white;
+}
+
+.add:hover i{
+  background-color: white;
+}
+.add:hover span{
+  color: white;
+}
+
+.user span:hover{
+  color: white;
 }
