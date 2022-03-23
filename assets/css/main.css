@@ -27,6 +27,11 @@ main{
   float: right;
   margin: 27px 20px;
   cursor: pointer;
+  transition: .7s;
+}
+
+.upgrade button:hover{
+  scale: 1.1;
 }
 
 /* Menu */
@@ -35,6 +40,7 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 .sections ul{
@@ -46,11 +52,26 @@ main{
 .sections ul li{
   display: inline-block;
 }
+
 .sections ul li a{
   color: #757575;
   font-size: 12px;
 }
 
+.focus-lime{        
+  width: 100%;
+  position: relative;
+  left: 13px;
+  top: 10px;
+  width: 70%;
+  border-bottom: 3px solid #B6FF33;
+  z-index: 1;
+}
+
+
+.sections ul li a:hover{
+  color: white;
+}
 /* Cards */
 .recent, 
 .for-you, 
@@ -69,11 +90,50 @@ main{
   margin: 0 1%;
 }
 
+
 .cover img{
+  display: block;
   width: 100%;
+  height: auto;
+  
 }
 
-.round img{
+.overlay{
+  position: relative;
+}
+
+.playcard{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay:hover .playcard{
+  opacity: 1;
+
+}
+
+
+.playcard i{
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.round img,
+.round .playcard{
   border-radius: 50%;
 }
 
