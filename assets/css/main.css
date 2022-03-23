@@ -85,9 +85,9 @@ main{
   font-weight: bold;
   margin: 0 1%;
 }
-.cards p{
-  padding: 10px 0;
-  margin: 0 1%;
+
+.cards h2{
+  padding: 10px;
 }
 
 
