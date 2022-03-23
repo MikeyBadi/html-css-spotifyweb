@@ -102,6 +102,7 @@
   background: #C8C8C8;
   height: 5px;
   width: 70%;
+  margin-bottom: 5px;
 }
 
 .progress-move .progress-value {
@@ -145,3 +146,106 @@
   padding: 0 10px 0 5px;
   font-size: 10px;
 }
+
+/* hovers */
+.fa-solid,
+.fa-regular{
+  cursor: pointer;
+}
+
+.song-desc p:hover{
+  color: white;
+  text-decoration: underline;
+}
+
+.fa-heart:hover{
+  color: white;
+}
+.fa-folder:hover{
+  color: white;
+}
+
+.commands .fa-circle-play{
+  animation: 0.5s;
+}
+.commands .fa-circle-play:hover{
+  scale: 1.1;
+}
+
+/* pointer music */
+.pointer {
+  border-radius: 100px;
+  display: flex;
+  height: 5px;
+  width: 500px;
+  position: relative;
+}
+
+.pointer-value {
+  position: absolute;
+  border-radius: 100px;
+  background: transparent;
+  height: 10px;
+  width: 10px;
+  padding: 4px;
+  margin-bottom: 2px;
+}
+
+.pointer-move .pointer-value {
+  top: -2px;
+  left: 0;
+  animation-iteration-count: infinite;  
+  animation: pointerAnimation 275s;
+  
+}
+@keyframes pointerAnimation {
+  0%{
+    top: -2px;
+    left: -5px;
+  }
+
+  100%{
+    top: -2px;
+    left: 100%;
+  }
+}
+
+
+.progress:hover .progress-value{
+  background-color: #B7FF32;
+}
+
+.progress:hover .pointer-value{
+  background: white;
+}
+/* /pointer music */
+
+
+/* pointer volume */
+.pointer-vol {
+  border-radius: 100px;
+  display: flex;
+  height: 5px;
+  width: 120px;
+  position: relative;
+}
+
+.pointer-value-vol {
+  position: absolute;
+  border-radius: 100px;
+  background: transparent;
+  height: 10px;
+  width: 10px;
+  padding: 4px;
+  margin-bottom: 2px;
+  top: -2px;
+  left: 66%;
+}
+
+.progress-vol:hover .pointer-value-vol{
+  background-color: white;
+}
+.progress-vol:hover .progress-value-vol{
+  background-color: #B7FF32;
+}
+/* /pointer volume */
