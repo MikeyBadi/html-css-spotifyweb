@@ -117,7 +117,7 @@ overflow-y: auto;
 /* 
   FOOTER
 */
-.meta-player{
+/* .meta-player{
   width: 100%;
   height: 90px;
   position: fixed;
@@ -132,13 +132,13 @@ overflow-y: auto;
   position: fixed;
   display: flex;
   justify-content: space-between;
-}
+} */
 
-.song,
+/* .song,
 .volume{
-  width: 220px;
+  width: 16%;
 }
 
-.cmmds{
-  width: 500px;
-}
+.cmmd{
+  width: 50%;
+} */
