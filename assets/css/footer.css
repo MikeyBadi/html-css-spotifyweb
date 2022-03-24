@@ -29,25 +29,24 @@
 }
 /* Songs */
 .song{
+  min-width: 120px;
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   padding: 15px;
 }
 
 .song img{
   width: 30px;
-  float: left;
-  margin-right: 10px;
 }
 
 .song-desc{
   display: inline-block;
   vertical-align: 4px;
+  justify-content: space-between;
 }
-.song-desc div{
-  float: right;
-}
+
 .song-desc h3{
   color: white;
 }
@@ -112,16 +111,6 @@
   margin-bottom: 5px;
 }
 
-.progress-move .progress-value {
-  width: 100%;
-  animation-iteration-count: infinite;  
-  animation: progressAnimation 275s;
-}
-
-@keyframes progressAnimation {
-  0%   { width: 0%;}
-  100% { width: 100%;}
-}
 
 .commands,
 .song-bar{
@@ -185,7 +174,7 @@
   border-radius: 100px;
   display: flex;
   height: 5px;
-  width: 500px;
+  width: 100%;
   position: relative;
 }
 
@@ -197,26 +186,10 @@
   width: 10px;
   padding: 4px;
   margin-bottom: 2px;
-}
-
-.pointer-move .pointer-value {
   top: -2px;
-  left: 0;
-  animation-iteration-count: infinite;  
-  animation: pointerAnimation 275s;
-  
+  left: 98.5%;
 }
-@keyframes pointerAnimation {
-  0%{
-    top: -2px;
-    left: -5px;
-  }
 
-  100%{
-    top: -2px;
-    left: 100%;
-  }
-}
 
 
 .progress:hover .progress-value{
@@ -234,7 +207,7 @@
   border-radius: 100px;
   display: flex;
   height: 5px;
-  width: 120px;
+  width: 100%;
   position: relative;
 }
 
@@ -247,7 +220,7 @@
   padding: 4px;
   margin-bottom: 2px;
   top: -2px;
-  left: 66%;
+  left: 93%;
 }
 
 .progress-vol:hover .pointer-value-vol{

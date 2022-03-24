@@ -53,6 +53,13 @@ nav{
   padding-bottom: 10px;
 }
 
+.selected{
+  border-left: 3px solid #B6FF33;
+  margin-left: -20px;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
 /* Playlist */
 
 .playlist{
@@ -60,6 +67,7 @@ nav{
   position: absolute;
   top: 179px;
   left: 0;
+  bottom: 380px ;
 }
 
 .playlist h3{
@@ -71,6 +79,15 @@ nav{
   background-color: #A3A3A3;
   padding: 5px;
   display: inline-block;
+}
+
+.playlist-name{
+  width: 230px;
+  position: absolute;
+  top: 260px;
+  left: 0;
+  bottom: 60px ;
+  overflow-y: auto;
 }
 
 .playlist-name span{
